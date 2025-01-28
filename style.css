@@ -1,3 +1,18 @@
+body {
+   font-family: "Schibsted Grotesk", serif;
+   font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+   font-size: 15px;
+   margin: 0;
+   background-color: #252525;
+}
+
+ul {
+   margin: 0;
+   padding: 0;
+}
+
 #header {
    font-family: "Londrina Solid", serif;
    font-weight: 900;
@@ -7,10 +22,32 @@
    display: grid;
    align-items: center;
    justify-items: center;
+   margin-bottom: 50px;
 }
 
-#header h1 {
+#header .site-logo {
    text-align: center;
    margin: 0 auto;
    font-size: 70px;
+   color: rgb(255, 255, 255);
+}
+
+.recipe-links {
+   width: 100%;
+   display: grid;
+   align-items: center;
+   justify-items: center;
+   list-style: none;
+   grid-template-columns: repeat(3, 1fr);
+}
+
+.link a {
+   font-weight: 800;
+   font-size: 20px;
+   color: #61efff;
+   text-decoration: none;
+}
+
+.link a:hover {
+   color: #05d1e8;
 }
