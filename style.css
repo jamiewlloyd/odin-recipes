@@ -6,11 +6,7 @@ body {
    font-size: 15px;
    margin: 0;
    background-color: #252525;
-}
-
-ul {
-   margin: 0;
-   padding: 0;
+   color: #f3f3f3;
 }
 
 #header {
@@ -39,6 +35,8 @@ ul {
    justify-items: center;
    list-style: none;
    grid-template-columns: repeat(3, 1fr);
+   margin: 0;
+   padding: 0;
 }
 
 .link a {
@@ -50,4 +48,13 @@ ul {
 
 .link a:hover {
    color: #05d1e8;
+}
+
+.recipe-title {
+   width: 100%;
+   text-align: center;
+}
+
+.recipe-img {
+   margin: 0 auto;
 }
