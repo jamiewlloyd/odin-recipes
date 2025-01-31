@@ -39,14 +39,14 @@ body {
    padding: 0;
 }
 
-.link a {
+.link {
    font-weight: 800;
    font-size: 20px;
    color: #61efff;
    text-decoration: none;
 }
 
-.link a:hover {
+.link:hover {
    color: #05d1e8;
 }
 
